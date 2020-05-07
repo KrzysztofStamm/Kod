@@ -564,7 +564,7 @@ void logInMenu()
                     logInMenu();
                 }
 
-            if (login.size()>0) //to sprawia ¿e usuwany jest znak ascii entera z loginu dzieki temu to wgl dzia³a
+            if (login.size()>0) //to sprawia Â¿e usuwany jest znak ascii entera z loginu dzieki temu to wgl dziaÂ³a
                 {
                     login.erase(login.size()-1,1);
                 }
@@ -617,7 +617,7 @@ void logInMenu()
                         }
                     if (password.size()>0)
                         {
-                        // to sprawia ¿e usuwany jest znak ascii entera z loginu dzieki temu to wgl dzia³a
+                        // to sprawia Â¿e usuwany jest znak ascii entera z loginu dzieki temu to wgl dziaÂ³a
                         password.erase(password.size()-1,1);
                         }
              }
@@ -832,7 +832,7 @@ void adminMainPanel()
         activeMenu=-1;
         menuSizeDown=9;
         setPosition(placeXMenu,6); cout << "Dodaj film"<<endl;
-        setPosition(placeXMenu,7); cout << "Usuñ film"<<endl;
+        setPosition(placeXMenu,7); cout << "UsuÃ± film"<<endl;
         setPosition(placeXMenu,8); cout << "Wszystkie filmy"<<endl;
         setPosition(placeXMenu,9); cout << "Wyjscie"<<endl;
 }
